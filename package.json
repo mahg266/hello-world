@@ -23,7 +23,7 @@
     "@commitlint/config-conventional": "^12.0.0",
     "husky": "^5.1.1"
   },
-  "husky": {
+  "husky": {  
     "hooks": {
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
       "pre-commit": "eslint \"src/**/*.{js,ts,vue}\""
